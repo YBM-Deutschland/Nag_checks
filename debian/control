@@ -1,0 +1,16 @@
+Source: hugme-nagios-checks
+Section: monitoring
+Priority: optional
+Maintainer: YBM <server@ybm.eu>
+Build-Depends-Indep: cdbs,
+ devscripts
+Standards-Version: 3.9.8
+
+Package: hugme-nagios-checks
+Architecture: all
+Multi-Arch: foreign
+Recommends: 
+Suggests: 
+Description: nagios checks from hugme
+ This package contains nagios check from hugme 
+ (https://github.com/hugme/Nag_checks).
